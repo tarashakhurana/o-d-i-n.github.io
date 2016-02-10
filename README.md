@@ -1,30 +1,8 @@
-Agency Jekyll theme
-====================
-
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
-
-# How to use
-
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+### Roadmap
+* [ ] Furnish .github.io page
+* [ ] Get some 3-5 people to collaborate with
+* [ ] Hold interviews to get a core management team
+* [ ] Add ideas to the group after 7-10 people are added in the organisation
+* [ ] Assign mentors and promote projects to get contributors
+* [ ] Showcase projects once they are complete
+* [ ] Start doing conferences in the college
