@@ -180,6 +180,13 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.color.primary }};
 }
 
+.navbar-default .navbar-brand img {
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: -23px;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
