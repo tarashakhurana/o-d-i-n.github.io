@@ -1,0 +1,16 @@
+---
+title: billi
+subtitle: NodeJS package
+layout: default
+modal-id: 2
+date: 2016-03-20
+img: billi.png
+thumbnail: billi.png
+alt: image-alt
+project-date: Feb 2016
+collaborators:
+  - "mbad0la"
+  - "bogas04"
+type: Utility
+description: Modern 'cat' for developers.
+---

@@ -17,16 +17,18 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                <li>Collaborators:
+                                    {% for collab in post.collaborators %}
+                                    <strong><a href="https://github.com/{{ collab }}" target="_blank">@{{ collab }}</a>
+                                    </strong>
+                                    {% endfor %}
+                                </li>
+                                <li>Code at:
+                                    <strong><a href="https://github.com/o-d-i-n/{{ post.title }}" target="_blank">{{ post.title }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                <li>Type:
+                                    <strong>{{ post.type }}
                                     </strong>
                                 </li>
                             </ul>

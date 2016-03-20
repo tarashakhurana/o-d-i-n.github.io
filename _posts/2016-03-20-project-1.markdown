@@ -1,0 +1,16 @@
+---
+title: is-alpha
+subtitle: NodeJS package
+layout: default
+modal-id: 1
+date: 2016-03-20
+img: isalpha.png
+thumbnail: isalpha.png
+alt: image-alt
+project-date: Feb 2016
+collaborators:
+  - "mbad0la"
+  - "bogas04"
+type: Utility
+description: Checks whether passed string contains alphabets, digits and vocabulory.
+---

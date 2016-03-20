@@ -2,9 +2,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+                    <span class="copyright">{{ site.title }} 2016</span>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-offset-4 col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -12,14 +12,14 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <!--div class="col-md-4">
                     <ul class="list-inline quicklinks">
                         <li><a href="#">Privacy Policy</a>
                         </li>
                         <li><a href="#">Terms of Use</a>
                         </li>
                     </ul>
-                </div>
+                </div-->
             </div>
         </div>
     </footer>
